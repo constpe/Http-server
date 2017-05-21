@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="MainPageStyle.css"/>
+    <title>Сайт о городе Минске</title>
+</head>
+<body link=#D11513 vlink=#840F0E alink=#5E0C0B>
+    <header>
+        <span id="welcome">Добро пожаловать на сайт о городе Минске</span>
+        <span id="form"><form>
+            <input style="width: 15%" type="text" placeholder="Введите строку для поиска">
+            <input type="radio" name="search" id="site">Поиск по сайту
+            <input type="radio" name="search" id="page">Поиск по странице
+            <button style="width: 5%">Найти</button>
+        </form></span>
+    </header>
+
+    {FILE="News.html"}
+
+    <div id="main_block" class="block">
+        <p class="description">
+            Данный сайт даст вам возможность познакомиться с городом Минском, его историей и интересными местами.
+        Сайт будем полезен как гостям города, так и просто интересующимся людям.
+        </p>
+
+        <p class="description">
+            Выбрав пункт "История" вы сможете ознакомиться ознакомиться с историей города от самого его первого упоминания до современных
+        дней и проследить основные этапы его становления.
+        </p>
+        <p class="description">
+            Выбрав пункт "Интересные места" вам будет представлен список различных мест города Минска, связанных
+            с историей города и его культурной жизни, но и некоторых необычных мет. Возможно, вы захотите посетить какие-либо из
+            этих мест, если будете гостить в городе.
+        </p>
+
+        <p class="description">
+            Выбрав пункт "Дополнительная информация" вы узнаете о том, как можно добраться до города, о различных видах городского транспорта Минска, что несомненно поможет вам перемещаться
+            по городу. Вы также узнаете, где получить информацию о гостиницах города.
+        </p>
+        <br/>
+        <p align="middle"><a href="HistoryPage.php">
+            <img class="link" src="Files/history.png" title="История" width="94%">
+        </a></p><br/>
+        <p align="middle"><a href="AttractionsPage.php">
+            <img class="link" src="Files/attractions.png" title="Интересные места" width="94%">
+        </a></p><br>
+        <p align="middle"><a href="TransportPage.php">
+            <img class="link" src="Files/info_link.png" title="Дополнительная информация" width="94%">
+        </a></p><br>
+        <form>
+            <span id="letter"><textarea cols=95 rows=10 placeholder="Напишите сообщение автору. Выскажите свои пожелания и предложения!"></textarea></span>
+            <span id="send"><button>Отправить</button></span>
+        </form>
+        <br>
+    </div>
+
+    {FILE="Facts.html"}
+
+</body>
+<footer>
+    Все права защищены (с) 2017
+</footer>
+</html>

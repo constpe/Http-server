@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+HTML {
+    height: 100%;
+}
+
+BODY {
+    color: #A9A9A9;
+    width: 100%;
+    height: 100%;
+    background: url(Files/main_background.png) repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    background-color: #1b6b84;
+    color: #bf955a;
+    min-height: 50px;
+    border: solid 1.5px black;
+    font-family: "Monotype Corsiva" ;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    background-color: #1b6b84;
+    color: #bf955a;
+    min-height: 30px;
+    border: solid 1.5px black;
+    text-align: center;
+    padding-top: 1%;
+    float: right;
+    position: relative;
+}
+
+#welcome {
+    display: block;
+    font-size: 38px;
+    text-align: left;
+    float: left;
+    padding-left: 1%;
+}
+
+#form {
+    display: block;
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 1%;
+}
+
+::selection {
+    background-color: #e6ec1c;
+}
+
+.block {
+    background-color: RGBA(27, 107, 132, 0.8);
+    color: #d7e7d0;
+    font-size: 18px;
+    border: solid 1.5px black;
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    top: 5%;
+}
+
+#news_block {
+    width: 18%;
+    left: 2%;
+    color: black;
+    background-color: RGBA(38, 165, 239, 0.8);
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#main_block {
+    width: 54%;
+    left: 3%;
+    margin-bottom: 4%;
+}
+
+#facts_block {
+    width: 20%;
+    left: 4%;
+    text-align: center;
+    color: black;
+    background-color: RGBA(38, 165, 239, 0.8);
+}
+
+#news_title {
+    text-align: center;
+}
+
+.date {
+    font-size: 10px;
+    text-align: left;
+}
+
+.news_info {
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+#news_button {
+    text-align: center;
+}
+
+.description {
+    text-indent: 5%;
+    text-align: justify;
+    padding: 2%;
+}
+
+.link:hover {
+    border: solid 3px red;
+    width: 97%;
+}
+
+.link {
+    text-align: center;
+}
+
+#letter {
+    display: block;
+    text-align: center;
+}
+
+#send {
+    display: block;
+    text-align: right;
+    padding-right: 3%;
+}
